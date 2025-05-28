@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 public class BasicValidation extends BaseTest{
 
 	@Test
-	public void titleValidation() {//from y1 branch
+	public void titleValidation() {//from x1 + from y1 branch
 		String expectedResult = "Facebook – log in or sign up";
 		String actualResult = driver.getTitle();
 		
