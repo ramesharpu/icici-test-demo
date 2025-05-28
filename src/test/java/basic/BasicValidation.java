@@ -20,7 +20,7 @@ public class BasicValidation extends BaseTest{
 	}
 
 	@Test
-	public void welcomeMessageValidation() {//from c1 branch
+	public void welcomeMessageValidation() {//from b1 branch + from c1 branch
 		String expectedResult = "Facebook helps you connect and share with the people in your life.";
 		String actualResult = driver.findElement(By.xpath("//h2[@class='_8eso']")).getText();
 		
